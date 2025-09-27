@@ -17,7 +17,7 @@ function Home() {
                 <Link to='/about' className="bg-amber-800 text-2xl text-white rounded-3xl py-2 px-2 text-center my-3 mt-4 flex items-center justify-center">About Me <span className="text-2xl">→</span></Link>
             </div>
             <div className="w-120 h-120">
-                <img src="/src/assets/ken's image.jpg" alt="Ken's Photo" className="w-full h-full object-cover rounded-full"/>
+                <img src="/src/assets/ken's image.jpg" alt="Ken's Photo" className="w-full h-full object-cover rounded-full transition-all duration-500 ease-in-out hover:shadow-[0_0_30px_cyan]"/>
             </div>
         </div>
      );
