@@ -11,8 +11,10 @@ function Home() {
                     <p className=" text-amber-600 font-semi-bold text-xl py-1 px-2.5 rounded-3xl text-center"> Passionate</p>
                     <span className="text-xl text-amber-800">-</span>
                     <p className=" text-amber-600 font-semi-bold text-xl py-1 px-2.5 rounded-3xl text-center">Focused</p>
+                    <span className="text-xl text-amber-800">-</span>
+                    <p className="text-amber-600 font-semi-bold text-xl py-1 px-2.5 rounded-3xl text-center">Detail-Oriented</p>
                 </div>
-                <Link to='/about' className="bg-amber-800 text-2xl text-white rounded-3xl py-2 px-2 text-center my-3 mt-4">About Me <span className="text-3xl">→</span></Link>
+                <Link to='/about' className="bg-amber-800 text-2xl text-white rounded-3xl py-2 px-2 text-center my-3 mt-4 flex items-center justify-center">About Me <span className="text-2xl">→</span></Link>
             </div>
             <div className="w-120 h-120">
                 <img src="/src/assets/ken's image.jpg" alt="Ken's Photo" className="w-full h-full object-cover rounded-full"/>
