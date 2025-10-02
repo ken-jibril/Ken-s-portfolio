@@ -4,9 +4,9 @@ function About() {
                 <h1 className="text-white text-4xl text-center my-3">About Me</h1>
         <div className="flex flex-col mx-auto">
             <div className="rounded-2xl max-w-fit flex flex-col items-center justify-center text-white w-4xl h-96 mx-auto leading-relaxed gap-1">
-              <p className="font-bold text-xl my-2 ">Hey, I'm Ken — a Front-End Developer passionate about creating fast, responsive, and visually engaging web experiences. <br /> I enjoy crafting clean, reusable components that make development smoother and more scalable.
-                <p className="font-bold text-xl ">Over time, I've built projects ranging from responsive websites to interactive apps with API integrations. <br /> My focus is always on delivering intuitive, accessible interfaces that users actually enjoy using.</p>
-                <p className="font-bold text-xl ">When I'm not coding, you'll probably find me watching a good series or vibing to some jams — both <br /> keep me inspired and fuel my creativity when I get back to the code.</p>
+              <p className="font-semi-bold text-xl my-2 ">Hey, I'm Ken — a Front-End Developer passionate about creating fast, responsive, and visually engaging web experiences. <br /> I enjoy crafting clean, reusable components that make development smoother and more scalable.
+                <p className="font-semi-bold text-xl ">Over time, I've built projects ranging from responsive websites to interactive apps with API integrations. <br /> My focus is always on delivering intuitive, accessible interfaces that users actually enjoy using.</p>
+                <p className="font-semi-bold text-xl ">When I'm not coding, you'll probably find me watching a good series or vibing to some jams — both <br /> keep me inspired and fuel my creativity when I get back to the code.</p>
               </p>
             </div>
             <div className=" w-lg mx-auto my-4">
