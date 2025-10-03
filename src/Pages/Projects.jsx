@@ -10,11 +10,11 @@ function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
         
         {/* Project Card */}
-        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl bg-gray-800">
+        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
             src="/src/assets/Frontend_Mentor.io .png"
             alt="QR Code"
-            className="rounded-t-xl w-full object-cover"
+            className="rounded-xl w-full object-cover"
           />
           <div className="p-4">
             <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
@@ -37,11 +37,11 @@ function Projects() {
         </div>
 
         {/* Blog Preview Card */}
-        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl bg-gray-800">
+        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
             src="/src/assets/Screenshot 2025-08-21 125557.png"
             alt="Blog Card Photo"
-            className="rounded-t-xl w-full object-cover"
+            className="rounded-xl w-full object-cover"
           />
           <div className="p-4">
             <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
@@ -64,11 +64,11 @@ function Projects() {
         </div>
 
         {/* Social Links Profile */}
-        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl bg-gray-800">
+        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
             src="/src/assets/Screenshot 2025-08-23 195239.png"
             alt="Profile Card Photo"
-            className="rounded-t-xl w-full object-cover"
+            className="rounded-xl w-full object-cover"
           />
           <div className="p-4">
             <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
@@ -91,11 +91,11 @@ function Projects() {
         </div>
 
         {/* Recipe Page */}
-        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl bg-gray-800">
+        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
             src="/src/assets/Screenshot 2025-10-02 131425.png"
             alt="Recipe Photo"
-            className="rounded-t-xl w-full object-cover"
+            className="rounded-xl w-full object-cover"
           />
           <div className="p-4">
             <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
