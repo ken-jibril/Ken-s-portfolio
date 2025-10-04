@@ -45,7 +45,7 @@ function Home() {
         {/* Image section */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="/src/assets/ken's image.jpg"
+            src="/ken-simage.jpg"
             alt="Ken's Photo"
             className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-96 lg:h-96 object-cover rounded-full transition-all duration-500 ease-in-out hover:shadow-[0_0_60px_cyan]"
           />
