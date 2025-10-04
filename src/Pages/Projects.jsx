@@ -9,7 +9,7 @@ function Projects() {
       {/* Project Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
         
-        {/* Project Card */}
+        {/* QR Code Card */}
         <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
             src="/src/assets/Frontend_Mentor.io .png"
