@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { SiX } from "react-icons/si";
 
 function Contact() {
   const [firstname, setFirstname] = useState('');
@@ -93,13 +94,13 @@ function Contact() {
       {/* Socials */}
       <div className="flex justify-center gap-6 mb-10">
         <a href="https://github.com/ken-jibril" target="_blank" rel="noopener noreferrer">
-          <FaGithub size={40} className="text-white hover:text-gray-400 transition-colors duration-300" />
+          <FaGithub size={40} className="text-white hover:text-white transition-colors duration-300" />
         </a>
         <a href="https://www.linkedin.com/in/kennedy-njoroge-35b84a366/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={40} className="text-blue-700 hover:text-blue-500 transition-colors duration-300" />
         </a>
         <a href="https://x.com/JibrilKen42083" target="_blank" rel="noopener noreferrer">
-          <FaTwitter size={40} className="text-blue-400 hover:text-blue-500 transition-colors duration-300" />
+          <SiX size={40} className="text-white hover:text-gray-400" />
         </a>
       </div>
     </>
