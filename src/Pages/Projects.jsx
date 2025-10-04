@@ -12,7 +12,7 @@ function Projects() {
         {/* QR Code Card */}
         <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
-            src="/src/assets/Frontend_Mentor.io .png"
+            src="/frontendmentor.io.png"
             alt="QR Code"
             className="rounded-xl w-full object-cover"
           />
@@ -39,7 +39,7 @@ function Projects() {
         {/* Blog Preview Card */}
         <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
-            src="/src/assets/Screenshot 2025-08-21 125557.png"
+            src="/Screenshot-2025-08-21125557.png"
             alt="Blog Card Photo"
             className="rounded-xl w-full object-cover"
           />
@@ -66,7 +66,7 @@ function Projects() {
         {/* Social Links Profile */}
         <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
-            src="/src/assets/Screenshot 2025-08-23 195239.png"
+            src="/Screenshot-2025-08-23195239.png"
             alt="Profile Card Photo"
             className="rounded-xl w-full object-cover"
           />
@@ -93,7 +93,7 @@ function Projects() {
         {/* Recipe Page */}
         <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
           <img
-            src="/src/assets/Screenshot 2025-10-02 131425.png"
+            src="/Screenshot-2025-10-02131425.png"
             alt="Recipe Photo"
             className="rounded-xl w-full object-cover"
           />
