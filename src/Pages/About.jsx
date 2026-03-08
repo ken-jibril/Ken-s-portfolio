@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="px-4 py-12">
+    <section id="about" className="px-4 py-20">
       {/* Heading */}
       <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-8">
         About Me
@@ -27,34 +27,6 @@ function About() {
           vibing to some jams — both keep me inspired and fuel my creativity
           when I get back to the code.
         </p>
-      </div>
-
-      {/* Tech Stack */}
-      <div className="max-w-5xl mx-auto mt-12">
-        <h2 className="text-white text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-6">
-          Tech Stack
-        </h2>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          <p className="bg-white text-amber-700 text-lg sm:text-xl md:text-2xl text-center flex items-center justify-center rounded py-2 px-3 font-bold hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_20px_cyan]">
-            HTML5
-          </p>
-          <p className="bg-white text-amber-700 text-lg sm:text-xl md:text-2xl text-center flex items-center justify-center rounded py-2 px-3 font-bold hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_20px_cyan]">
-            CSS3
-          </p>
-          <p className="bg-white text-amber-700 text-lg sm:text-xl md:text-2xl text-center flex items-center justify-center rounded py-2 px-3 font-bold hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_20px_cyan]">
-            JavaScript (ES6+)
-          </p>
-          <p className="bg-white text-amber-700 text-lg sm:text-xl md:text-2xl text-center flex items-center justify-center rounded py-2 px-3 font-bold hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_20px_cyan]">
-            React.js
-          </p>
-          <p className="bg-white text-amber-700 text-lg sm:text-xl md:text-2xl text-center flex items-center justify-center rounded py-2 px-3 font-bold hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_20px_cyan]">
-            Node.js
-          </p>
-          <p className="bg-white text-amber-700 text-lg sm:text-xl md:text-2xl text-center flex items-center justify-center rounded py-2 px-3 font-bold hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_20px_cyan]">
-            Tailwind CSS
-          </p>
-        </div>
       </div>
     </section>
   );
