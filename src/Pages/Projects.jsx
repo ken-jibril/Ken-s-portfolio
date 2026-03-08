@@ -6,7 +6,7 @@ function Projects() {
       description:
         "A moving company application for booking and managing relocation services.",
       liveUrl: "https://movers-app-amber.vercel.app/",
-      image: "/Movemate Kenya.png",
+      image: "/MoveMate kenya.png",
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ function Projects() {
       description:
         "A tour booking website for exploring destinations and booking travel experiences.",
       liveUrl: "https://soin-tours.vercel.app/",
-      image: "/Soin-tours.png",
+      image: "/Soin Africa Safaris.png",
     },
     {
       id: 3,
