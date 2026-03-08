@@ -6,7 +6,7 @@ function Projects() {
       description:
         "A moving company application for booking and managing relocation services.",
       liveUrl: "https://movers-app-amber.vercel.app/",
-      image: "/MoveMate kenya.png",
+      image: "/MoveMate kenya (1).png",
     },
     {
       id: 2,
