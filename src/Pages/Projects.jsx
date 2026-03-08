@@ -1,121 +1,78 @@
 function Projects() {
+  const projects = [
+    {
+      id: 1,
+      title: "Movers App",
+      description:
+        "A moving company application for booking and managing relocation services.",
+      liveUrl: "https://movers-app-amber.vercel.app/",
+      image: "/Movemate Kenya.png",
+    },
+    {
+      id: 2,
+      title: "Soin Tours",
+      description:
+        "A tour booking website for exploring destinations and booking travel experiences.",
+      liveUrl: "https://soin-tours.vercel.app/",
+      image: "/Soin-tours.png",
+    },
+    {
+      id: 3,
+      title: "My Portfolio",
+      description:
+        "My personal portfolio website showcasing my skills, projects, and expertise as a frontend developer.",
+      liveUrl: "https://ken-s-portfolio-pi.vercel.app/",
+      image: "/Tech-inspired logo featuring 'F' and 'D' initials..png",
+    },
+  ];
+
   return (
-    <section className="px-4 py-12">
+    <section id="projects" className="px-4 py-20">
       {/* Heading */}
       <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-10">
         My Projects
       </h1>
 
       {/* Project Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
-        
-        {/* QR Code Card */}
-        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
-          <img
-            src="/frontendmentor.io.png"
-            alt="QR Code"
-            className="rounded-xl w-full object-cover"
-          />
-          <div className="p-4">
-            <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
-              QR Code Component
-            </h2>
-            <p className="text-white text-base sm:text-lg leading-relaxed text-center">
-              The QR Code above is to be used to give access to Front-End mentor challenges for practice.
-            </p>
-            <div className="flex justify-center mt-4">
-              <a
-                href="https://qr-code-component-pied-phi-87.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-xl hover:bg-amber-400 hover:scale-105 transition-all duration-300"
-              >
-                View Live
-              </a>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center max-w-5xl mx-auto">
+        {projects.map((project) => (
+          <div
+            key={project.id}
+            className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4 bg-gray-800/50 border border-gray-700"
+          >
+            {/* Project Image - Placeholder until user provides photos */}
+            <div className="rounded-xl w-full h-48 sm:h-56 bg-gray-700 flex items-center justify-center mb-4">
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="rounded-xl w-full h-full object-cover"
+                />
+              ) : (
+                <span className="text-gray-400 text-lg">Photo coming soon</span>
+              )}
             </div>
-          </div>
-        </div>
 
-        {/* Blog Preview Card */}
-        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
-          <img
-            src="/Screenshot-2025-08-21125557.png"
-            alt="Blog Card Photo"
-            className="rounded-xl w-full object-cover"
-          />
-          <div className="p-4">
-            <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
-              Blog Preview Card
-            </h2>
-            <p className="text-white text-base sm:text-lg leading-relaxed text-center">
-              The Blog Card is used as a clickable card to view more details on the Front-end Technologies.
-            </p>
-            <div className="flex justify-center mt-4">
-              <a
-                href="https://blog-preview-card-weld-delta.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-xl hover:bg-amber-400 hover:scale-105 transition-all duration-300"
-              >
-                View Live
-              </a>
+            <div className="p-4">
+              <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
+                {project.title}
+              </h2>
+              <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-center mb-4">
+                {project.description}
+              </p>
+              <div className="flex justify-center mt-4">
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-xl hover:bg-amber-400 hover:scale-105 transition-all duration-300"
+                >
+                  View Live
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-
-        {/* Social Links Profile */}
-        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
-          <img
-            src="/Screenshot-2025-08-23195239.png"
-            alt="Profile Card Photo"
-            className="rounded-xl w-full object-cover"
-          />
-          <div className="p-4">
-            <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
-              Social Link's Profile
-            </h2>
-            <p className="text-white text-base sm:text-lg leading-relaxed text-center">
-              This Social Links Profile serves as a personal hub, allowing users to easily access and connect with the owner's various social media platforms.
-            </p>
-            <div className="flex justify-center mt-4">
-              <a
-                href="https://social-links-profile-nu-khaki.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-xl hover:bg-amber-400 hover:scale-105 transition-all duration-300"
-              >
-                View Live
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Recipe Page */}
-        <div className="max-w-sm w-full hover:scale-105 transition-transform duration-500 ease-in-out hover:shadow-[0_0_30px_magenta] rounded-xl p-4">
-          <img
-            src="/Screenshot-2025-10-02131425.png"
-            alt="Recipe Photo"
-            className="rounded-xl w-full object-cover"
-          />
-          <div className="p-4">
-            <h2 className="text-white text-center text-xl sm:text-2xl font-bold mb-2">
-              Recipe Page
-            </h2>
-            <p className="text-white text-base sm:text-lg leading-relaxed text-center">
-              This Recipe Details Page provides a complete breakdown of a dish, featuring its image, title, description, instructions, ingredients, and nutritional info.
-            </p>
-            <div className="flex justify-center mt-4">
-              <a
-                href="https://recipe-mu-gules.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-xl hover:bg-amber-400 hover:scale-105 transition-all duration-300"
-              >
-                View Live
-              </a>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
