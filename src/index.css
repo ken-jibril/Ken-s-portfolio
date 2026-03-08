@@ -1,4 +1,14 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    background: linear-gradient(90deg, rgb(1, 1, 32), rgb(3, 9, 185));
+  background: linear-gradient(90deg, rgb(1, 1, 32), rgb(3, 9, 185));
+}
+
+/* Add padding to account for fixed navbar */
+section {
+  scroll-margin-top: 80px;
 }
